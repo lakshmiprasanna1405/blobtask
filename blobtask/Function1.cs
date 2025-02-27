@@ -34,5 +34,6 @@ public class Function1
         }
 
         _logger.LogInformation($"Blob uploaded: {blobName}");
+        _logger.LogInformation("end");
     }
 }
