@@ -14,5 +14,4 @@ builder.Build().Run();
 var host = new HostBuilder()
     .ConfigureFunctionsWorkerDefaults()
     .Build();
-
 host.Run();
